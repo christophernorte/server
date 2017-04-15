@@ -4,7 +4,6 @@ services:
     container_name: "plex-server"
     image: "linuxserver/plex"
     ports:
-      - "8080:80"
       - "32400:32400"
       - "32400:32400/udp"
       - "32469:32469"
