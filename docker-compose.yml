@@ -1,0 +1,17 @@
+version: '2'
+services:
+  web:
+    container_name: "plex-server"
+    image: "linuxserver/plex"
+    ports:
+      - "8080:80"
+      - "32400:32400"
+      - "32400:32400/udp"
+      - "32469:32469"
+      - "32469:32469/udp"
+      - "5353:5353/udp"
+      - "1900:1900/udp"
+#    volumes:
+#     - .:/code
+    environment:
+      - VERSION=latest
