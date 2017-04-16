@@ -2,6 +2,7 @@ Autorisation firewall
 =================
 
 * Se déplacer dans le répertoire : /etc/firewalld/services
+* (Chemin déprécié : /usr/lib/firewalld/services/)
 * Créer le fichier plexmediaserver.xml
 * Ajouter le contenu ci-dessous.
 
