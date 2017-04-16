@@ -6,7 +6,7 @@ Autorisation firewall
 * Créer le fichier plexmediaserver.xml
 * Ajouter le contenu ci-dessous.
 
-<pre>
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <service>
   <short>Plex Media Server</short>
@@ -19,7 +19,7 @@ Autorisation firewall
   <port protocol="udp" port="32410"/>
   <port protocol="udp" port="32414"/>
 </service>
-</pre>
+```
 
 * Lancer la commande :
 
